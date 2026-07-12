@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="">
+    <style>
+        .driver-section {
+            padding-top: 20px;
+        }
+
+        body {
+            background: #f5f5f5;
+        }
+
+        .navbar {
+            padding: 15px 0;
+            background: #000 !important;
+        }
+
+        .navbar-brand {
+            letter-spacing: 1px;
+        }
+
+        .nav-link {
+            color: white !important;
+            font-size: 18px;
+            margin: 0 8px;
+            transition: .3s;
+        }
+
+        .nav-link:hover {
+            color: #E10600 !important;
+        }
+
+        .nav-link.active {
+            color: #E10600 !important;
+            font-weight: bold;
+        }
+
+        .form-control {
+            border-radius: 30px;
+        }
+
+        .btn-danger {
+            border-radius: 30px;
+            padding: 8px 20px;
+        }
+
+        .card-img-top {
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .card {
+            transition: 0.4s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+
+        body {
+            background: #f5f5f5;
+        }
+
+        .card-img-top {
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .card {
+            overflow: hidden;
+            border: none;
+            transition: 0.4s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .driver-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold fs-3 text-danger" href="Index.html">
+                 F1 World
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Teams.html">Teams</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Drivers.html">Drivers</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex">
+
+                    <input class="form-control me-2" type="search" placeholder="Search Driver">
+
+                    <button class="btn btn-danger">
+                        Search
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <section class="driver-banner py-5">
+
+        <div class="container text-center">
+
+            <h1 class="display-4 fw-bold text-danger">
+                Formula 1 Drivers
+            </h1>
+
+            <p class="text-black mt-3">
+               Meet the world's fastest drivers competing in Formula 1.
+            </p>
+
+            <a href="Teams.html" class="btn btn-danger mt-2">
+                View Teams
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+                <!-- Lewis -->
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="card h-100 shadow text-center p-3">
+
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/lewis-hamilton-lead-image-67d49522c8f4a.jpg?crop=1.00xw:1.00xh;0,0&resize=360:*" class="driver-img">
+
+                        <h4 class="mt-3 text-danger">Lewis Hamilton</h4>
+
+                        <p><b>Team:</b> Ferrari</p>
+
+                        <p><b>Car No:</b> 44</p>
+
+                        
+                    </div>
+
+                </div>
+
+                <!-- Max -->
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="card h-100 shadow text-center p-3">
+                      <img src="https://i.pinimg.com/736x/27/d4/3b/27d43ba8c9a7e0b35875ccf47cf98642.jpg" class="driver-img">
+
+                        <h4 class="mt-3 text-danger">Max Verstappen</h4>
+
+                        <p><b>Team:</b> Red Bull</p>
+
+                        <p><b>Car No:</b> 1</p>
+
+                      
+
+                    </div>
+
+                </div>
+
+                <!-- Charles -->
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="card h-100 shadow text-center p-3">
+
+                       <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/leclerc" class="driver-img" alt="Charles Leclerc">
+
+                        <h4 class="mt-3 text-danger">Charles Leclerc</h4>
+
+                        <p><b>Team:</b> Ferrari</p>
+
+                        <p><b>Car No:</b> 16</p>
+
+                       
+
+                    </div>
+
+                </div>
+
+        
+
+        
+        <!-- Lando Norris -->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="card h-100 shadow text-center p-3">
+
+                <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/norris"
+                    class="driver-img mx-auto" alt="Lando Norris">
+
+                <h4 class="mt-3 text-danger">Lando Norris</h4>
+
+                <p><b>Team:</b> McLaren</p>
+
+                <p><b>Car No:</b> 4</p>
+
+            </div>
+
+        </div>
+
+        <!-- George Russell -->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="card h-100 shadow text-center p-3">
+
+                <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/russell"
+                    class="driver-img mx-auto" alt="George Russell">
+
+                <h4 class="mt-3 text-danger">George Russell</h4>
+
+                <p><b>Team:</b> Mercedes</p>
+
+                <p><b>Car No:</b> 63</p>
+
+            </div>
+
+        </div>
+
+        <!-- Kimi Antonelli -->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="card h-100 shadow text-center p-3">
+
+                <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/antonelli"
+                    class="driver-img mx-auto" alt="Kimi Antonelli">
+
+                <h4 class="mt-3 text-danger">Kimi Antonelli</h4>
+
+                <p><b>Team:</b> Mercedes</p>
+
+                <p><b>Car No:</b> 12</p>
+
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <footer class="bg-dark text-white py-4 mt-5">
+
+        <div class="container text-center">
+
+            <h4 class="text-danger">
+                 F1 World
+            </h4>
+
+            <p>
+                Explore Formula 1 Teams, Drivers and Racing History.
+            </p>
+
+            <hr>
+
+            <p class="mb-0">
+                © 2026 F1 World | Designed By Amey Dhumal
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>

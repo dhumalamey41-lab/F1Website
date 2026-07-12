@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+            background: #f5f5f5;
+        }
+
+        .navbar {
+            padding: 15px 0;
+            background: #000 !important;
+        }
+
+        .navbar-brand {
+            letter-spacing: 1px;
+        }
+
+        .nav-link {
+            color: white !important;
+            font-size: 18px;
+            margin: 0 8px;
+            transition: .3s;
+        }
+
+        .nav-link:hover {
+            color: #E10600 !important;
+        }
+
+        .nav-link.active {
+            color: #E10600 !important;
+            font-weight: bold;
+        }
+
+        .form-control {
+            border-radius: 30px;
+        }
+
+        .btn-danger {
+            border-radius: 30px;
+            padding: 8px 20px;
+        }
+
+        .card-img-top {
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .card {
+            transition: 0.4s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .carousel img {
+            object-fit: cover;
+        }
+
+        body {
+            background: #f5f5f5;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold fs-3 text-danger" href="Index.html">
+                F1 World
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Teams.html">Teams</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Drivers.html">Drivers</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search Driver">
+                    <button class="btn btn-danger">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <section class="py-5">
+
+        <div class="container text-center">
+
+            <h2 class="fw-bold text-danger">
+                Formula 1 Teams
+            </h2>
+
+            <p class="text-secondary">
+                Explore the world's top Formula 1 teams, their history and achievements.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    
+
+    <section class="pb-5">
+        <div class="container">
+            <div class="row g-4">
+
+                <!-- Ferrari -->
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow">
+                        <img src="Image F1/Ferrari team.avif" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-danger">
+                                Ferrari
+                            </h5>
+                            <p>
+                                Ferrari is the oldest and most successful Formula 1 team with a legendary racing
+                                history.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Red Bull -->
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow">
+                        <img src="Image F1/RedBull team.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-danger">
+                                Red Bull
+                            </h5>
+                            <p>
+                                Red Bull Racing is known for speed, innovation and multiple Formula 1 world
+                                championships.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Mercedes -->
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow">
+                        <img src="Image F1/Mercedes team.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-danger">
+                                Mercedes
+                            </h5>
+                            <p>
+                                Mercedes is famous for its advanced technology and championship-winning performance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- McLaren -->
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow">
+                        <img src="Image F1/McLaren team.webp" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-danger">
+                                McLaren
+                            </h5>
+                            <p>
+                                McLaren has a rich Formula 1 history with iconic drivers and successful racing seasons.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Aston Martin -->
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow">
+                        <img src="Image F1/Aston Martin team.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-danger">
+                                Aston Martin
+                            </h5>
+                            <p>
+                                Aston Martin combines luxury, engineering excellence and strong Formula 1 ambitions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Williams -->
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow">
+                        <img src="Image F1/Willams.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-danger">
+                                Williams
+                            </h5>
+                            <p>
+                                Williams is one of the most respected Formula 1 teams with a proud racing heritage.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <h4 class="text-danger">
+                🏎️ F1 World
+            </h4>
+            <p>
+                Explore Formula 1 Teams, Drivers and Racing History.
+            </p>
+            <hr>
+
+            <p class="mb-0">
+                © 2026 F1 World | Designed By Amey Dhumal
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

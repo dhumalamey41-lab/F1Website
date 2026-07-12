@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    margin-top:30px;
+}
+
+.display-5{
+    font-weight:bold;
+}
+
+.lead{
+    font-size:20px;
+}
+
+.bg-dark h1{
+    transition:.4s;
+}
+
+.bg-dark h1:hover{
+    transform:scale(1.2);
+    color:white !important;
+}
+
+/*Featured teams*/
+
+.card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.4s;
+}
+
+.card img{
+    height:250px;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0px 15px 35px rgba(0,0,0,.3);
+}
+
+.card:hover img{
+    transform:scale(1.08);
+}
+
+.card-title{
+    font-weight:bold;
+}
+
+/*Drivers*/
+
+.btn-outline-danger{
+    border-radius:30px;
+    padding:10px 30px;
+}
+
+.btn-outline-danger:hover{
+    background:#E10600;
+    color:white;
+}
+
+
+
+footer{
+    margin-top:50px;
+}
+
+footer p{
+    margin:5px 0;
+}
+
+
+
+/*team page css*/
+.card{
+    border: none;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+}
+
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
+}
+
+.text-secondary{
+    font-size: 18px;
+}
+
+/*Driver page*/
+.driver-banner{
+    background:#111;
+}
+
+.driver-banner p{
+    font-size:18px;
+}
+
+.driver-banner .btn{
+    border-radius:25px;
+    padding:8px 20px;
+}
+
